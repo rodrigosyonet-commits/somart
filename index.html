@@ -4,329 +4,495 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio ERP SOMART</title>
 
-    <title>Implementación ERP SOMART</title>
-
-    <!-- Hoja de estilos -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <!-- PORTADA -->
+    <!-- SIDEBAR -->
 
-    <section class="cover">
+    <aside class="sidebar">
 
         <img
-            src="./images/logo-somart.png"
-            alt="RP</h1>
-        
-        <h2>SOMART Refaccionaria</h2>
+            src="images/logo.jpg"
+            alt="SOMART"
+            class="logo">
 
-        <p>
-            Evaluación de plataformas ERP para 5 sucursales
-        </p>
+        <h2>SOMART ERP</h2>
 
-        <p>
-            Sistemas evaluados:
-            Alpherix • Evolution • Odoo
-        </p>
+        <nav>
+            <a href="#situacion">Situación Actual</a>
+            <a href="#objetivos">Objetivos</a>   
+            <a href="#requerimientos"> Requerimientos</a>
+            <a href="#flujo-ventas"> Ventas</a>
+            <a href="#flujo-compras">Flujo Compras</a>
+            <a href="#comparativo">Comparativo ERP</a>
+            <a href="#roi">ROI</a>
+            <a href="#riesgos">Riesgos</a>
+            <a href="#recomendacion">Recomendación</a>
+        </nav>
 
-    </section>
+    </aside>
 
-    <!-- RESUMEN EJECUTIVO -->
+    <!-- CONTENIDO -->
 
-    <section class="section">
+    <main class="content">
 
-        <h2>Resumen Ejecutivo</h2>
+        <!-- PORTADA -->
 
-        <p>
-            SOMART actualmente opera sobre SiNube ERP y se encuentra
-            evaluando la migración hacia una plataforma más robusta
-            que permita administrar más de 100,000 productos,
-            optimizar inventarios, mejorar el flujo operativo y
-            soportar el crecimiento futuro de la empresa.
-        </p>
+        <section class="hero">
 
-    </section>
+            <h1>Estudio Preliminar e Implementación ERP</h1>
 
-    <!-- OBJETIVOS -->
+            <h2>SOMART Refaccionaria</h2>
 
-    <section class="section">
+            <p>
+                Evaluación de Alpherix, Evolution ERP, Odoo y SiNube ERP
+            </p>
 
-        <h2>Objetivos del Proyecto</h2>
-
-        <ul>
-            <li>Administrar más de 100,000 productos.</li>
-            <li>Garantizar tiempos de respuesta rápidos.</li>
-            <li>Manejo de variantes de productos.</li>
-            <li>Control de máximos y mínimos por sucursal.</li>
-            <li>Reportes de ventas.</li>
-            <li>Reportes bancarios (efectivo, tarjeta y transferencia).</li>
-            <li>Facturación CFDI.</li>
-            <li>Punto de venta integrado.</li>
-            <li>Impresión de tickets en impresora térmica.</li>
-            <li>Escalabilidad para futuras funcionalidades.</li>
-        </ul>
-
-    </section>
-
-    <!-- ESTRUCTURA ORGANIZACIONAL -->
-
-    <section class="section">
-
-        <h2>Estructura Organizacional</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>Total Usuarios</h3>
-                <p>11</p>
+            <div class="hero-badges">
+                <span>5 Sucursales</span>
+                <span>100,000+ SKU</span>
+                <span>11 Usuarios</span>
+                <span>Proyecto ERP</span>
             </div>
 
-            <div class="card">
-                <h3>Cajeras</h3>
-                <p>2</p>
+        </section>
+
+        <!-- RESUMEN -->
+
+        <section id="resumen" class="section">
+
+            <h2>Resumen Ejecutivo</h2>
+
+            <p>
+                SOMART opera actualmente con SiNube ERP y requiere evaluar una nueva
+                plataforma tecnológica capaz de soportar crecimiento futuro,
+                inventarios de más de 100,000 SKU, múltiples sucursales,
+                crédito a talleres, control financiero y procesos avanzados
+                de compras e inventario.
+            </p>
+
+            <ul>
+                <li>100,000+ productos.</li>
+                <li>Inventarios multi-sucursal.</li>
+                <li>Punto de venta.</li>
+                <li>Facturación CFDI.</li>
+                <li>Cuentas por cobrar.</li>
+                <li>Cuentas por pagar.</li>
+                <li>Compras centralizadas.</li>
+                <li>Máximos y mínimos inteligentes.</li>
+                <li>Compatibilidad vehículo-pieza.</li>
+            </ul>
+
+        </section>
+
+        <!-- KPI -->
+
+        <section id="situacion" class="section">
+
+            <h2>Situación Actual</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>ERP Actual</h3>
+                    <p>SiNube</p>
+                </div>
+
+                <div class="card">
+                    <h3>Sucursales</h3>
+                    <p>5</p>
+                </div>
+
+                <div class="card">
+                    <h3>Usuarios</h3>
+                    <p>11</p>
+                </div>
+
+                <div class="card">
+                    <h3>Productos</h3>
+                    <p>100k+</p>
+                </div>
+
             </div>
 
-            <div class="card">
-                <h3>Gerencia</h3>
-                <p>2</p>
+        </section>
+
+        <!-- OBJETIVOS -->
+
+        <section id="objetivos" class="section">
+
+            <h2>Objetivos del Proyecto</h2>
+
+            <ul>
+                <li>Alto rendimiento.</li>
+                <li>Control total de inventarios.</li>
+                <li>Máximos y mínimos basados en consumo.</li>
+                <li>Compras inteligentes.</li>
+                <li>Reportes gerenciales.</li>
+                <li>Control financiero.</li>
+                <li>Crédito para talleres.</li>
+                <li>Facturación CFDI.</li>
+                <li>Punto de venta.</li>
+            </ul>
+
+        </section>
+
+        <!-- REQUERIMIENTOS -->
+
+        <section id="requerimientos" class="section">
+
+            <h2>Requerimientos Funcionales</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Requerimiento</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Inventario</td>
+                        <td>100,000+ SKU</td>
+                    </tr>
+
+                    <tr>
+                        <td>Inventario</td>
+                        <td>Variantes</td>
+                    </tr>
+
+                    <tr>
+                        <td>Compras</td>
+                        <td>Múltiples OC por factura</td>
+                    </tr>
+
+                    <tr>
+                        <td>Compras</td>
+                        <td>Notas de crédito múltiples</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ventas</td>
+                        <td>POS</td>
+                    </tr>
+
+                    <tr>
+                        <td>Ventas</td>
+                        <td>Tickets térmicos</td>
+                    </tr>
+
+                    <tr>
+                        <td>CxC</td>
+                        <td>Crédito para talleres</td>
+                    </tr>
+
+                    <tr>
+                        <td>Facturación</td>
+                        <td>Kiosco CFDI</td>
+                    </tr>
+
+                    <tr>
+                        <td>Reportes</td>
+                        <td>Flujo de efectivo</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- BPMN VENTAS -->
+
+        <section id="flujo-ventas" class="section">
+
+            <h2>Flujo Actual de Ventas</h2>
+
+            <div class="bpmn">
+
+                <div class="lane">
+                    <div class="lane-title">Cliente</div>
+
+                    <div class="lane-content">
+                        <div class="bpmn-step">Solicita Producto</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Recibe Cotización</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Autoriza Compra</div>
+                    </div>
+                </div>
+
+                <div class="lane">
+                    <div class="lane-title">Vendedor</div>
+
+                    <div class="lane-content">
+                        <div class="bpmn-step">Consulta Inventario</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Genera Cotización</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Convierte a Pedido</div>
+                    </div>
+                </div>
+
+                <div class="lane">
+                    <div class="lane-title">Caja</div>
+
+                    <div class="lane-content">
+                        <div class="bpmn-step">Cobro</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Ticket / Factura</div>
+                    </div>
+                </div>
+
+                <div class="lane">
+                    <div class="lane-title">Surtidor</div>
+
+                    <div class="lane-content">
+                        <div class="bpmn-step">Preparar Pedido</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Entrega</div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="card">
-                <h3>Compras</h3>
-                <p>1</p>
+        </section>
+
+        <!-- BPMN COMPRAS -->
+
+        <section id="flujo-compras" class="section">
+
+            <h2>Flujo Futuro de Compras</h2>
+
+            <div class="bpmn">
+
+                <div class="lane">
+                    <div class="lane-title">Planeación Inventarios</div>
+
+                    <div class="lane-content">
+                        <div class="bpmn-step">Ventas Históricas</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Rotación</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Clasificación ABC</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Recalcular Máximos/Mínimos</div>
+                    </div>
+                </div>
+
+                <div class="lane">
+                    <div class="lane-title">Compras</div>
+
+                    <div class="lane-content">
+                        <div class="bpmn-step">Requisición</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Orden Compra</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Recepción</div>
+                    </div>
+                </div>
+
+                <div class="lane">
+                    <div class="lane-title">Cuentas por Pagar</div>
+
+                    <div class="lane-content">
+                        <div class="bpmn-step">Factura Proveedor</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Aplicar NC</div>
+                        <div class="bpmn-arrow">➜</div>
+                        <div class="bpmn-step">Pago</div>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="card">
-                <h3>Vendedores</h3>
-                <p>6</p>
-            </div>
+        </section>
 
-        </div>
+        <!-- COMPARATIVO -->
 
-    </section>
+        <section id="comparativo" class="section">
 
-    <!-- FLUJO OPERATIVO -->
+            <h2>Matriz Comparativa ERP</h2>
 
-    <section class="section">
+            <table>
 
-        <h2>Flujo Operativo Actual</h2>
+                <thead>
+                    <tr>
+                        <th>Criterio</th>
+                        <th>SiNube</th>
+                        <th>Alpherix</th>
+                        <th>Evolution</th>
+                        <th>Odoo</th>
+                    </tr>
+                </thead>
 
-        <div class="flow">
+                <tbody>
 
-            <div class="step">
-                Cliente visita sucursal
-            </div>
+                    <tr>
+                        <td>100,000 SKU</td>
+                        <td>3</td>
+                        <td>2</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
 
-            <div class="arrow">➜</div>
+                    <tr>
+                        <td>Multi Sucursal</td>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>5</td>
+                    </tr>
 
-            <div class="step">
-                Vendedor recibe requerimiento
-            </div>
+                    <tr>
+                        <td>Variantes</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
 
-            <div class="arrow">➜</div>
+                    <tr>
+                        <td>CxP Complejas</td>
+                        <td>3</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
 
-            <div class="step">
-                Consulta inventario desde tablet
-            </div>
+                    <tr>
+                        <td>Crédito Talleres</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
 
-            <div class="arrow">➜</div>
+                </tbody>
 
-            <div class="step">
-                Valida existencia
-            </div>
+            </table>
 
-            <div class="arrow">➜</div>
+        </section>
 
-            <div class="step">
-                Genera cotización
-            </div>
+        <!-- ROI -->
 
-            <div class="arrow">➜</div>
+        <section id="roi" class="section">
 
-            <div class="step">
-                Cliente acepta cotización
-            </div>
+            <h2>ROI Estimado a 5 Años</h2>
 
-            <div class="arrow">➜</div>
+            <table>
 
-            <div class="step">
-                Se convierte en pedido
-            </div>
-
-            <div class="arrow">➜</div>
-
-            <div class="step">
-                Imprime 3 copias
-            </div>
-
-            <div class="arrow">➜</div>
-
-            <div class="step">
-                Caja realiza cobro
-            </div>
-
-            <div class="arrow">➜</div>
-
-            <div class="step">
-                Pedido pasa a surtido
-            </div>
-
-            <div class="arrow">➜</div>
-
-            <div class="step">
-                Cliente recoge mercancía
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- COMPARATIVO ERP -->
-
-    <section class="section">
-
-        <h2>Comparativo ERP</h2>
-
-        <table>
-
-            <thead>
                 <tr>
-                    <th>Criterio</th>
-                    <th>Alpherix</th>
-                    <th>Evolution</th>
-                    <th>Odoo</th>
+                    <th>ERP</th>
+                    <th>ROI</th>
                 </tr>
-            </thead>
-
-            <tbody>
 
                 <tr>
-                    <td>100,000+ Productos</td>
-                    <td>Validar</td>
-                    <td>Bueno</td>
-                    <td>Excelente</td>
-                </tr>
-
-                <tr>
-                    <td>Variantes de Productos</td>
-                    <td>Bueno</td>
-                    <td>Bueno</td>
-                    <td>Excelente</td>
-                </tr>
-
-                <tr>
-                    <td>Inventarios Multi-Sucursal</td>
-                    <td>Bueno</td>
-                    <td>Excelente</td>
-                    <td>Excelente</td>
-                </tr>
-
-                <tr>
-                    <td>Punto de Venta</td>
-                    <td>Sí</td>
-                    <td>Sí</td>
-                    <td>Sí</td>
-                </tr>
-
-                <tr>
-                    <td>Escalabilidad</td>
-                    <td>Media</td>
-                    <td>Alta</td>
-                    <td>Muy Alta</td>
-                </tr>
-
-                <tr>
-                    <td>Personalización</td>
-                    <td>Media</td>
-                    <td>Media</td>
-                    <td>Muy Alta</td>
-                </tr>
-
-            </tbody>
-
-        </table>
-
-    </section>
-
-    <!-- ROI -->
-
-    <section class="section">
-
-        <h2>Análisis ROI Estimado (5 años)</h2>
-
-        <table>
-
-            <thead>
-                <tr>
-                    <th>Sistema</th>
-                    <th>ROI Estimado</th>
-                </tr>
-            </thead>
-
-            <tbody>
-
-                <tr>
-                    <td>Odoo</td>
-                    <td>180% - 250%</td>
-                </tr>
-
-                <tr>
-                    <td>Evolution</td>
-                    <td>140% - 200%</td>
+                    <td>SiNube</td>
+                    <td>120%</td>
                 </tr>
 
                 <tr>
                     <td>Alpherix</td>
-                    <td>100% - 160%</td>
+                    <td>160%</td>
                 </tr>
 
-            </tbody>
+                <tr>
+                    <td>Evolution</td>
+                    <td>190%</td>
+                </tr>
 
-        </table>
+                <tr>
+                    <td>Odoo</td>
+                    <td>250%</td>
+                </tr>
 
-    </section>
+            </table>
 
-    <!-- FUTURO -->
+        </section>
 
-    <section class="section">
+        <!-- RIESGOS -->
 
-        <h2>Funcionalidades Futuras</h2>
+        <section id="riesgos" class="section">
 
-        <ul>
-            <li>Catálogo por marca y modelo de vehículo.</li>
-            <li>Consulta automática de piezas compatibles.</li>
-            <li>Integración con eCommerce.</li>
-            <li>Business Intelligence y Dashboards.</li>
-            <li>Portal de clientes.</li>
-            <li>Aplicación móvil para vendedores.</li>
-        </ul>
+            <h2>Matriz de Riesgos</h2>
 
-    </section>
+            <table>
 
-    <!-- RECOMENDACIÓN -->
+                <tr>
+                    <th>Riesgo</th>
+                    <th>Nivel</th>
+                </tr>
 
-    <section class="section recommendation">
+                <tr>
+                    <td>100,000 SKU</td>
+                    <td>Alto</td>
+                </tr>
 
-        <h2>Recomendación Inicial</h2>
+                <tr>
+                    <td>Migración Inventario</td>
+                    <td>Alto</td>
+                </tr>
 
-        <p>
-            <strong>1. Odoo Enterprise</strong><br>
-            <strong>2. Evolution ERP</strong><br>
-            <strong>3. Alpherix ERP</strong>
-        </p>
+                <tr>
+                    <td>Facturas agrupadas</td>
+                    <td>Alto</td>
+                </tr>
 
-        <br>
+                <tr>
+                    <td>Conciliación Bancaria</td>
+                    <td>Medio</td>
+                </tr>
 
-        <p>
-            Se recomienda ejecutar una prueba piloto utilizando
-            más de 100,000 productos y al menos 12 meses de histórico
-            de ventas antes de seleccionar la plataforma definitiva.
-        </p>
+            </table>
 
-    </section>
+        </section>
+
+        <!-- RECOMENDACIÓN -->
+
+        <section id="recomendacion" class="section">
+
+            <h2>Recomendación Final</h2>
+
+            <div class="recommendation">
+
+                <h3>Ranking ERP</h3>
+
+                <ol>
+                    <li>Odoo</li>
+                    <li>Evolution</li>
+                    <li>SiNube</li>
+                    <li>Alpherix</li>
+                </ol>
+
+                <p>
+                    Se recomienda realizar una Prueba de Concepto (POC)
+                    con datos reales:
+                </p>
+
+                <ul>
+                    <li>100,000 SKU.</li>
+                    <li>5 sucursales.</li>
+                    <li>15 usuarios concurrentes.</li>
+                    <li>Facturas agrupadas.</li>
+                    <li>Notas de crédito múltiples.</li>
+                    <li>Crédito para talleres.</li>
+                    <li>Kiosco CFDI.</li>
+                    <li>Flujo de efectivo.</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+    </main>
 
 </body>
 
